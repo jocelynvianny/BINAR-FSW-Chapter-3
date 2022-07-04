@@ -1,0 +1,411 @@
+/* Styling for main screen (main call to action) starts here */
+.mainScreen {
+    background: #000 url(assets/main-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 960px;
+    color: #FFFFFF;
+}
+
+.mainScreen h1 {
+    padding-top: 300px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: 3px;
+    line-height: 83px;
+    text-transform: uppercase;     
+}
+
+.mainScreen h3 {
+    margin-top: 50px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+.mainScreen .btn {
+    margin-top: 50px;
+    padding: 17px;
+    width: 265px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A1917;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+}
+
+.mainScreen p {
+    margin-bottom: 0px;
+    margin-top: 250px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.mainScreen .scrollButton {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mainScreen .scrollButton:hover {
+    text-shadow: 0 0 3px #dff705e5;
+}
+
+
+/* Styling for page 2 (aboout + gallery) starts here */
+.page2 {
+    background: radial-gradient(135% 53% at 50% 46%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60%, #080A0B 99%),
+        url(assets/the-games-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.page2 .page2MainDIV {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.page2 .col-lg-4 {
+    font-family:'Arial';
+    font-weight: 400;
+}
+
+.page2 h3 {
+    font-size: 24px;
+    letter-spacing: 2px;    
+}
+
+.page2 h1 {
+    font-size: 56px;
+    letter-spacing: 3px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(assets/switch-left.svg);  
+}
+
+.carousel-control-next-icon {
+    background-image: url(assets/switch-right.svg);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-top: none;
+    border-bottom: none;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    margin-inline: 26px;
+    background: none;    
+    border: 2px solid white;
+    opacity: 100%;  
+}
+
+.carousel-indicators .active {
+    background: white;
+}
+
+.carousel-indicators {
+    margin-bottom: 10px;
+}
+
+
+/* Styling for page 3 (game features) starts here */
+.featuresPage {
+    background: #000 url(assets/features.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+
+.featuresPage .featuresMainDIV {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}   
+
+
+.featuresPage h3 {
+    font-size: 24px;   
+    letter-spacing: 2px;
+    font-family: 'Arial';
+    font-weight: 400;
+}
+
+.featuresPage h1 {
+    font-size: 56px;
+    letter-spacing: 3px;
+    font-family: 'Arial';
+    font-weight: 400;
+    padding-bottom: 40px;   
+}
+
+.featuresPage img {
+    margin-right: 1em;
+}
+
+.featuresPage .featuresList {
+    color: #FFB548;
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: 'Arial';
+    letter-spacing: 2px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.featuresPage .addDescription {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-left: 42px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+/* Styling for page 4 (system requirements) starts here */
+.requirementsPage {
+    background: radial-gradient(40% 60% at 63% 37%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.3%, #080A0B 99.74%),
+        url(assets/requirements.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.requirementsPage .requirementsMainDIV {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}   
+    
+
+.requirementsPage h3 {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.requirementsTable h1 {
+    margin-top: 55px;
+    margin-bottom: 50px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: 3px;
+}
+
+.reqBordered .reqType {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    margin-top: 15px;
+    margin-bottom: 3px;    
+}
+
+.reqBordered .reqDesc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 40px;   
+}
+
+.reqBordered .reqOS, .reqMemory {
+    border-right: solid 1px #979797;
+}
+
+.reqBordered .upperRow {
+    border-bottom: solid 1px #979797;
+}
+
+.reqBordered img {
+    position: absolute;
+    left: -12px;
+    top: -1px;
+    width: 100%;
+    height: 105%;  
+}
+
+.requirementsTable .reqBordered {
+    position: relative;
+}
+
+
+/* Styling for page 5 (press quotes) starts here */
+.quotesPage {
+    background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 96%), 
+        url(assets/top-score-bg.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    }
+
+.quotesPage h1 {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: 3px;
+    margin-bottom: 27px;
+    margin-top: 200px;
+}
+
+.quotesPage h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 47px;
+}
+
+.quotesPage .mainGrid {
+    width: 90%;
+    padding-top: 160px;
+    padding-bottom: 150px;
+}
+
+.quotesPage .btn {
+    padding:17px;
+    margin-bottom: 50px;
+    width: 240px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A1917;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+}
+
+.twitterCard .card {
+    width: 452.59px;
+    height: 182.94px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;  
+}  
+
+
+/* Styling for page 6 (subscription + footer) starts here */
+.newsletterPage {
+    background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 96%), black; 
+    height: 100%;
+}
+
+.newsletterPage .subscription {
+    width: 90%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+
+.subscription .newssubText {
+    color: white;
+}
+
+.subscription h3 {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+.subscription h1 {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 65px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.subscription p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.newssubCTA form {
+    width: 360px;
+    margin-right: 17px;
+    margin-top: 20px;
+}
+
+form .form-control {
+    background: rgba(255, 255, 255, 0.08);
+    border: 0px;
+    border-radius: 5px;
+    color: #FFB548;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    opacity: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.newssubCTA .btn {
+    padding: 17px;
+    margin-top: 20px;
+    width: 260px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A1917;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+}  
+
+
+.footer1 .foot-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+.footer1 {
+   margin-top: 60px;
+}
+
+.footer2 {
+    border-top: 0.87px solid #FFFFFF;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: baseline;
+}
+
+.footer2 .copyright {
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 50%;
+    
+}
+
+.footer2 .privacyPolicy a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    font-size: 12px;
+}
+    
