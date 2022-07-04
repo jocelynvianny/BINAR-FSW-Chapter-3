@@ -6,6 +6,50 @@
 
 /* for XS screen */
 @media (max-width: 576px) {
+    .mainScreen h1 {
+        font-size:xx-large;
+    }
+
+    .mainScreen h3 {
+        font-size:xx-small;
+    }
+
+    .featuresPage h1 {
+        font-size:xx-large;
+    }
+
+    .featuresPage h3 {
+        font-size:xx-small;
+    }
+   
+    .requirementsPage h1 {
+        font-size:smaller;
+        margin-bottom: 30px;
+    }
+
+    .quotesPage h1 {
+        font-size:xx-large;
+    }
+
+    .quotesPage h3 {
+        font-size:xx-small;
+    }
+    .card-body {
+        font-size:smaller;
+    }
+
+    .newsletterPage h1 {
+        font-size:xx-large;
+    }
+
+    .newsletterPage h3 {
+        font-size:xx-small;
+    }
+
+   .newsletterPage p {
+        font-size:smaller;
+    }
+    
     .newssubImg img {
         max-width: 90%;
     }
@@ -13,13 +57,37 @@
     .footer1C {
         margin-top: 20px;
         margin-bottom: 30px;
-    }
+    } 
 }
 
 
 /* for LARGE screen */
 @media (min-width: 992px) {
     
+    .navbar {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar .navbar-brand {
+        margin-left: 70px;
+    }
+
+    .navbar ul {
+        margin-left: 70px;
+    }
+
+    .navbar .nav-item {
+        margin-inline: 15px;
+    }
+
+    .navbar .nav-itemB {
+        margin-inline: 8px;
+    }
+
+    .navbar-nav .signIn {
+        margin-left: 200px;
+        
+    }
     .page2 .col-lg-8 {
         margin-left: -50px;
         margin-top: 40px; 
@@ -50,7 +118,45 @@
 
 /* for XL screen */
 @media (min-width: 1200px) {
+    .navbar ul {
+        margin-left: 100px;
+    }
+
+    .navbar .nav-item {
+        margin-inline: 25px;
+    }
+
+    .navbar .nav-itemB {
+        margin-inline: 10px;
+    }
+
+    .navbar-nav .signIn {
+        margin-left: 300px;
+        
+    }
+
     .quote1, .quote3 {
         margin-left: 145px;
+    }
+}
+
+
+/* for XXL screen */
+@media (min-width: 1400px) {
+    .navbar ul {
+        margin-left: 150px;
+    }
+
+    .navbar .nav-item {
+        margin-inline: 25px;
+    }
+
+    .navbar .nav-itemB {
+        margin-inline: 12px;
+    }
+
+    .navbar-nav .signIn {
+        margin-left: 350px;
+        
     }
 }

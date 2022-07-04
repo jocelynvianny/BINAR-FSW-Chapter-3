@@ -55,6 +55,15 @@
     text-shadow: 0 0 3px #dff705e5;
 }
 
+.navbar .nav-item, .nav-itemB {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}   
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+}
 
 /* Styling for page 2 (aboout + gallery) starts here */
 .page2 {
@@ -288,24 +297,57 @@
 
 .twitterCard .card {
     width: 452.59px;
-    height: 182.94px;
     margin-bottom: 30px;
     background-color: rgba(255, 255, 255, 0.08);
-    border-radius: 12px;  
+    border-radius: 12px;
+    padding-left: 10px;  
 }  
 
+.twitterCard .card .quote1 {
+    height: 182.94px;
+}  
+
+.twitterCard .card .quote3 {
+    height: 205px; 
+}
+
+.twitterCard h5 {
+    color: #FFB548;
+}
+
+.twitterCard img {
+    border: 0px;
+    border-radius: 50%;
+}
+
+.twitterCard .ellipse {
+    position: absolute;
+}
+
+.twitterCard .passphoto {
+    position: relative;
+    bottom: 3px; right: 10px;
+}
+
+.twitterCard .subjectquotes {
+    margin-left: 5%;
+    padding-right: 30%;
+}
+
+.twitterCard .logoTwitter {
+    margin-left:20%;
+}
 
 /* Styling for page 6 (subscription + footer) starts here */
 .newsletterPage {
-    background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 96%), black; 
+    background: black ; 
     height: 100%;
 }
 
 .newsletterPage .subscription {
     width: 90%;
     padding-top: 150px;
-    padding-bottom: 150px;
-    
+    padding-bottom: 80px;
 }
 
 .subscription .newssubText {
@@ -372,7 +414,6 @@ form .form-control {
     background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
 }  
 
-
 .footer1 .foot-link {
     text-decoration: none;
     color: white;
@@ -383,7 +424,7 @@ form .form-control {
 }
 
 .footer1 {
-   margin-top: 60px;
+   margin-top: 100px;
 }
 
 .footer2 {
@@ -408,4 +449,3 @@ form .form-control {
     font-weight: 700;
     font-size: 12px;
 }
-    
